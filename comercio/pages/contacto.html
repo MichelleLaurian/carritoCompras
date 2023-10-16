@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contacto</title>
+</head>
+
+<body>
+  <h3>Contacto</h3>
+
+  <nav>
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+
+      <li><a href="./galeria.html">Galeria</a></li>
+      <li><a href="./carrito.html">Carrito</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h3>Contacto</h3>
+    <form action="/procesar-formulario" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Ingrese su email" required>
+      <br>
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" name="edad" min="18" max="99" required>
+      <br>
+      <label for="pais">País:</label>
+      <select id="pais" name="pais" required>
+        <option value="">Seleccione su país</option>
+        <option value="1">Argentina</option>
+        <option value="2">Brasil</option>
+        <option value="3">México</option>
+      </select>
+      <br>
+      <label>Género:</label>
+      <input type="radio" id="genero-m" name="genero" value="masculino" required>
+      <label for="genero-m">Masculino</label>
+      <input type="radio" id="genero-f" name="genero" value="femenino" required>
+      <label for="genero-f">Femenino</label>
+      <br>
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpiar</button>
+    </form>
+  </main>
+  <footer>
+    <ol>
+      <li>Michelle Cusicanqui</li>
+      <li>Contacto
+        <ul>
+          <li>michellelaurian@gmail.Comercio</li>
+          <li>teléfono 1234</li>
+        </ul>
+      <li>© 2023 Michelle, Inc. Todos los derechos reservados</li>
+      </li>
+    </ol>
+    <section>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51916.74689311006!2d-58.090494969323316!3d-35.58340987262475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95980d91b05c7b97%3A0xa03593615f0c3bc1!2sCaba%C3%B1as%20los%20Arrayanes!5e0!3m2!1ses!2sar!4v1696962966425!5m2!1ses!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </footer>
+</body>
+
+</html>
